@@ -3,15 +3,6 @@
  * funcao para receber o CRM do medico
  * @author Laura Santiago
  */
-
-/**
- * classe herdeira da classe Pessoa
- * @param string
- * @param string
- * @param string
- * @param string
- * @param string
- */
 class Medico extends Pessoa{
 	private $CRM;
 
