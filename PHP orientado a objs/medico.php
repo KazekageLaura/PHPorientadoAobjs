@@ -3,12 +3,13 @@
  * funcao para receber o CRM do medico
  * @author Laura Santiago
  */
+
 class Medico extends Pessoa{
 	private $CRM;
 
 	/**
 	 * funcao getter do CREA.
-	 * @return string
+	 * @return String
 	 */
 	public function getCRM(){
     	return $this->CRM;
@@ -16,8 +17,7 @@ class Medico extends Pessoa{
 
 	/**
 	 * funcao setter do CRM.
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setCRM($e){
     	$this->CRM = $e;
