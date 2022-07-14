@@ -4,7 +4,6 @@
  * funcao para receber os dados das pessoas
  * @author Laura Santiago
  */
-
 class Pessoa{
 	private $nome;
 	private $dataNasc;
@@ -13,67 +12,56 @@ class Pessoa{
 
 	/**
 	 * funcao getter do nome
-	 * @param string
+	 * @return String
 	 */
 	public function getNome(){
     	return $this->nome;
 	}
-
 	/**
 	 * funcao setter do nome
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setNome($e){
     	$this->nome = $e;
 	}
-
 	/**
 	 * funcao getter da data de nascimento
-	 * @param string
+	 * @return String
 	 */
 	public function getDataNasc(){
     	return $this->dataNasc;
 	}
-
 	/**
 	 * funcao setter da data de nascimento
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setDataNasc($e){
     	$this->dataNasc = $e;
 	}
-
 	/**
 	 * funcao getter do CPF
-	 * @param string
+	 * @return String
 	 */
 	public function getCPF(){
     	return $this->CPF;
 	}
-
 	/**
 	 * funcao setter do CPF
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setCPF($e){
     	$this->CPF = $e;
 	}
-
 	/**
 	 * funcao getter do RG
-	 * @param string
+	 * @return String
 	 */
 	public function getRG(){
     	return $this->RG;
 	}
-
 	/**
 	 * funcao setter do RG
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setRG($e){
     	$this->RG = $e;
