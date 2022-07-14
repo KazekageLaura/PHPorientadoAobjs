@@ -1,5 +1,4 @@
 <?php
-
 /**
  * funcao para receber o CREA do engenheiro
  * @author Laura Santiago
@@ -9,7 +8,7 @@ class Engenheiro extends Pessoa{
 
 	/**
 	 * funcao getter do CREA.
-	 * @return string
+	 * @return String
 	 */
 	public function getCREA(){
     	return $this->CREA;
@@ -17,8 +16,7 @@ class Engenheiro extends Pessoa{
 
 	/**
 	 * funcao setter do CREA.
-	 * @param string
-	 * @return string
+	 * @param String
 	 */
 	public function setCREA($e){
     	$this->CREA = $e;
