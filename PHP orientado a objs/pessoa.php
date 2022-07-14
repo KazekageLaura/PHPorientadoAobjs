@@ -5,14 +5,6 @@
  * @author Laura Santiago
  */
 
-/**
- * classe Pessoa dita parametros para as outras pessoas
- * @param string
- * @param string
- * @param string
- * @param string
- */
-
 class Pessoa{
 	private $nome;
 	private $dataNasc;
