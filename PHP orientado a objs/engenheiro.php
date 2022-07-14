@@ -4,15 +4,6 @@
  * funcao para receber o CREA do engenheiro
  * @author Laura Santiago
  */
-
-/**
- * classe herdeira da classe Pessoa
- * @param string
- * @param string
- * @param string
- * @param string
- * @param string
- */
 class Engenheiro extends Pessoa{
 	private $CREA;
 
